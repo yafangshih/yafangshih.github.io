@@ -2086,6 +2086,15 @@
 			.image.p70 img {
 				width: 70%;
 			}
+		.image.p80 {
+			display: block;
+			margin: 0 0 2em 0;
+			width: 80%;
+		}
+
+			.image.p80 img {
+				width: 80%;
+			}
 
 		.image.avatar {
 			border-radius: 100%;
