@@ -1567,7 +1567,7 @@
 
 	body, input, select, textarea {
 		color: #a2a2a2;
-		font-family: Helvetica, "Source Sans Pro", sans-serif;
+		font-family: Lora, "Source Sans Pro", serif;
 		font-size: 30pt;
 		font-weight: 400;
 		line-height: 1.75em;
@@ -1578,14 +1578,14 @@
 		-webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-		border-bottom: dotted 1px;
-		color: #49bf9d;
+		/*border-bottom: dotted 1px;*/
+		color: #438496; /*#49bf9d;*/
 		text-decoration: none;
 	}
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #49bf9d !important;
+			color: #7094B3 !important;
 			text-decoration: none;
 		}
 
@@ -1599,18 +1599,26 @@
 	}
 
 	p {
-		margin: 0 0 2em 0;
+		margin: 0 0 1.15em 0;
 	}
 
-	h1, h2, h3, h4, h5, h6 {
+	h1, h2, h3, h4, h6 {
 		color: #787878;
 		font-weight: 400;
 		line-height: 1em;
 		margin: 0 0 1em 0;
+		
+	}
+	h5{
+		color: #787878;
+		font-weight: 400;
+		line-height: 1em;
+		margin: 0 0 0.5em 0;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
-			color: inherit;
+			font-size: 0.7em !important;
+			color: #438496; /*inherit;*/
 			text-decoration: none;
 		}
 
@@ -1620,17 +1628,19 @@
 	}
 
 	h2 {
-		font-size: 1.5em;
+		font-size: 1.3em;
 		line-height: 1.5em;
+		font-family: "Open Sans" !important;
 	}
 
 	h3 {
-		font-size: 1.25em;
+		font-size: 1.2em !important;
 		line-height: 1.5em;
 	}
 
 	h4 {
-		font-size: 1.1em;
+		color: #286DA8 !important;
+		font-size: 1.5em;
 		line-height: 1.5em;
 	}
 
@@ -1645,6 +1655,7 @@
 	}
 
 	sub {
+
 		font-size: 0.8em;
 		position: relative;
 		top: 0.5em;
@@ -1677,7 +1688,7 @@
 		background: #f7f7f7;
 		border-radius: 0.35em;
 		border: solid 2px #efefef;
-		font-family: Helvetica, "Courier New", monospace;
+		font-family: Lora, Helvetica, "Courier New", monospace;
 		font-size: 0.9em;
 		margin: 0 0.25em;
 		padding: 0.25em 0.65em;
@@ -1685,7 +1696,7 @@
 
 	pre {
 		-webkit-overflow-scrolling: touch;
-		font-family: Helvetica, "Courier New", monospace;
+		font-family: Lora, Helvetica, "Courier New", monospace;
 		font-size: 0.9em;
 		margin: 0 0 2em 0;
 	}
@@ -1716,7 +1727,7 @@
 	}
 
 	header p {
-		color: #b2b2b2;
+		color: #D7D7D7; /*#b2b2b2;*/
 		position: relative;
 		margin: 0 0 1.5em 0;
 	}
@@ -2460,7 +2471,7 @@
 /* Work Item */
 
 	.work-item {
-		margin: 0 0 2em 0;
+		margin: 0 0 3.5em 0;
 	}
 
 		.work-item .image {
@@ -2497,9 +2508,9 @@
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background-color: #1f1815;
+		background-color: #CD5360; /*#1f1815;*/
 		background-attachment: scroll,								fixed;
-		background-image: url("images/overlay.png"), url("../../images/bg.jpg");
+/*		background-image: url("images/overlay.png"), url("../../images/bg.jpg");*/
 		background-position: top left,							top left;
 		background-repeat: repeat,								no-repeat;
 		background-size: auto,								auto 100%;
@@ -2530,16 +2541,16 @@
 		}
 
 		#header strong, #header b {
-			color: #ffffff;
+			color: #EEEEEE;
 		}
 
 		#header h2, #header h3, #header h4, #header h5, #header h6 {
-			color: #ffffff;
+			color: #EEEEEE;
 		}
 
 		#header h1 {
 			color: rgba(255, 255, 255, 0.5);
-			font-size: 1.35em;
+			font-size: 1.4em !important;
 			line-height: 1.75em;
 			margin: 0;
 		}
@@ -2556,7 +2567,10 @@
 	}
 
 		#footer .icons a {
-			color: rgba(255, 255, 255, 0.4);
+			color: #EEEEEE !important;
+		}
+		#footer .icons a:hover {
+			color: #D7D7D7 !important;
 		}
 
 	#footer .copyright {
@@ -2598,12 +2612,15 @@
 			border-top: solid 2px #efefef;
 			margin: 4em 0 0 0;
 			padding: 4em 0 0 0;
+			font-size: 1.3em;
+
 		}
 
 			#main > section:first-child {
 				border-top: 0;
 				margin-top: 0;
 				padding-top: 0;
+				font-size: 1.2em;
 			}
 
 /* Poptrox */
@@ -2967,8 +2984,8 @@
 
 			#footer {
 				background-attachment: scroll;
-				background-color: #1f1815;
-				background-image: url("images/overlay.png"), url("../../images/bg.jpg");
+				background-color: #CD5360; /*#1f1815;*/
+/*				background-image: url("images/overlay.png"), url("../../images/bg.jpg");*/
 				background-position: top left,						bottom center;
 				background-repeat: repeat,							no-repeat;
 				background-size: auto,							cover;
@@ -3069,6 +3086,7 @@
 				#main > section {
 					margin: 2.25em 0 0 0;
 					padding: 2.25em 0 0 0;
+
 				}
 
 		/* Poptrox */
