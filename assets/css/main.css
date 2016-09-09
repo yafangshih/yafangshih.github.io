@@ -84,7 +84,7 @@
 	.container {
 		width: 960px;
 	}
-
+	
 	@media screen and (max-width: 1800px) {
 
 		.container.\31 25\25 {
@@ -1568,7 +1568,7 @@
 	body, input, select, textarea {
 		color: #a2a2a2;
 		font-family: Lora, serif, Helvetica; /*"Source Sans Pro"*/
-		font-size: 30pt;
+		font-size: 16pt; /* avan */
 		font-weight: 400;
 		line-height: 1.75em;
 	}
