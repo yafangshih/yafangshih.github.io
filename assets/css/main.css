@@ -1567,7 +1567,7 @@
 
 	body, input, select, textarea {
 		color: #a2a2a2;
-		font-family: Lora, serif, Helvetica, serif; /*"Source Sans Pro"*/
+		font-family: Lora, serif, Helvetica; /*"Source Sans Pro"*/
 		font-size: 30pt;
 		font-weight: 400;
 		line-height: 1.75em;
@@ -1688,7 +1688,7 @@
 		background: #f7f7f7;
 		border-radius: 0.35em;
 		border: solid 2px #efefef;
-		font-family: Lora, serif, Helvetica, "Courier New", monospace;
+		font-family: Lora, serif, Helvetica;
 		font-size: 0.9em;
 		margin: 0 0.25em;
 		padding: 0.25em 0.65em;
@@ -1696,7 +1696,7 @@
 
 	pre {
 		-webkit-overflow-scrolling: touch;
-		font-family: Lora, serif, Helvetica, "Courier New", monospace;
+		font-family: Lora, serif, Helvetica;
 		font-size: 0.9em;
 		margin: 0 0 2em 0;
 	}
