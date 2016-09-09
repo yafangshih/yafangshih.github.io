@@ -1567,7 +1567,7 @@
 
 	body, input, select, textarea {
 		color: #a2a2a2;
-		font-family: Lora, serif, Helvetica, "Source Sans Pro", serif;
+		font-family: Lora, serif, Helvetica, serif; /*"Source Sans Pro"*/
 		font-size: 30pt;
 		font-weight: 400;
 		line-height: 1.75em;
@@ -2088,6 +2088,16 @@
 			.image.fit img {
 				width: 100%;
 			}
+		.image.p40 {
+			display: block;
+			margin: 0 0 2em 0;
+			width: 40%;
+		}
+
+			.image.p40 img {
+				width: 40%;
+			}
+
 		.image.p70 {
 			display: block;
 			margin: 0 0 2em 0;
