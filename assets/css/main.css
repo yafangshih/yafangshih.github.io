@@ -2098,6 +2098,26 @@
 				width: 40%;
 			}
 
+		.image.p40in {
+			display: inline;
+			margin: 0 0 2em 0;
+			width: 40%;
+		}
+
+			.image.p40in img {
+				width: 40%;
+			}
+
+		.image.p20in {
+			display: inline;
+			margin: 0 0 2em 0;
+			width: 20%;
+		}
+
+			.image.p20in img {
+				width: 20%;
+			}
+
 		.image.p70 {
 			display: block;
 			margin: 0 0 2em 0;
