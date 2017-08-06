@@ -1567,7 +1567,7 @@
 
 	body, input, select, textarea {
 		color: #a2a2a2;
-		font-family: Lora, serif, Helvetica; /*"Source Sans Pro"*/
+		font-family: Open Sans, Helvetica; /*"Source Sans Pro"*/
 		font-size: 16pt; /* avan */
 		font-weight: 400;
 		line-height: 1.75em;
@@ -1602,13 +1602,20 @@
 		margin: 0 0 1.15em 0;
 	}
 
-	h1, h2, h3, h4, h6 {
+	h1, h2, h4, h6 {
 		color: #787878;
 		font-weight: 400;
 		line-height: 1em;
 		margin: 0 0 1em 0;
 		
 	}
+	h3{
+		color: #438496;
+		font-weight: 400;
+		line-height: 1em;
+		margin: 2em 0 1em 0;
+	}
+
 	h5{
 		color: #787878;
 		font-weight: 400;
@@ -1616,13 +1623,14 @@
 		margin: 0 0 0.5em 0;
 	}
 
-		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+		h1 a, h2 a, h4 a, h5 a, h6 a {
 			font-size: 0.7em !important;
 			color: #438496; /*inherit;*/
 			text-decoration: none;
 		}
 
 	h1 {
+
 		font-size: 2em;
 		line-height: 1.5em;
 	}
@@ -1634,12 +1642,12 @@
 	}
 
 	h3 {
-		font-size: 1em !important;
+		font-size: 1.2em !important;
 		line-height: 1.5em;
 	}
 
 	h4 {
-		color: #286DA8 !important;
+		color: #88BBD6; /*#286DA8*/ !important;
 		font-size: 1.5em;
 		line-height: 1.5em;
 	}
@@ -1727,7 +1735,7 @@
 	}
 
 	header p {
-		color: #D7D7D7; /*#b2b2b2;*/
+		color: #438496; /*#E9E9E9; #D7D7D7; #b2b2b2;*/
 		position: relative;
 		margin: 0 0 1.5em 0;
 	}
@@ -2538,7 +2546,7 @@
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background-color: #CD5360; /*#1f1815;*/
+		background-color: #E9E9E9; /*#CD5360; #1f1815;*/
 		background-attachment: scroll,								fixed;
 /*		background-image: url("images/overlay.png"), url("../../images/bg.jpg");*/
 		background-position: top left,							top left;
@@ -2571,7 +2579,7 @@
 		}
 
 		#header strong, #header b {
-			color: #EEEEEE;
+			color: #438496; /*#E9E9E9; #EEEEEE;*/
 		}
 
 		#header h2, #header h3, #header h4, #header h5, #header h6 {
@@ -2597,7 +2605,7 @@
 	}
 
 		#footer .icons a {
-			color: #EEEEEE !important;
+			color: #438496 !important; /*#EEEEEE*/
 		}
 		#footer .icons a:hover {
 			color: #D7D7D7 !important;
@@ -2640,9 +2648,9 @@
 
 		#main > section {
 			border-top: solid 2px #efefef;
-			margin: 4em 0 0 0;
-			padding: 4em 0 0 0;
-			font-size: 1.3em;
+			margin: 2em 0 0 0;
+			padding: 2em 0 0 0;
+			font-size: 1em;
 
 		}
 
@@ -2652,6 +2660,8 @@
 				padding-top: 0;
 				font-size: 1em;
 			}
+
+			
 
 /* Poptrox */
 
@@ -3014,7 +3024,7 @@
 
 			#footer {
 				background-attachment: scroll;
-				background-color: #CD5360; /*#1f1815;*/
+				background-color: #E9E9E9 ; /*#CD5360 1f1815;*/
 /*				background-image: url("images/overlay.png"), url("../../images/bg.jpg");*/
 				background-position: top left,						bottom center;
 				background-repeat: repeat,							no-repeat;
