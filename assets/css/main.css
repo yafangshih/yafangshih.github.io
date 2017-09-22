@@ -1738,7 +1738,12 @@
 	}
 
 	header p {
-		color: #438496; /*#E9E9E9; #D7D7D7; #b2b2b2;*/
+		color: #88BBD6; /*#438496; #E9E9E9; #D7D7D7; #b2b2b2;*/
+		position: relative;
+		margin: 0 0 1.5em 0;
+	}
+	header a {
+		color: #88BBD6; /*#438496; #E9E9E9; #D7D7D7; #b2b2b2;*/
 		position: relative;
 		margin: 0 0 1.5em 0;
 	}
@@ -2127,6 +2132,16 @@
 
 			.image.p20in img {
 				width: 15%;
+			}
+
+		.image.p50 {
+			display: block;
+			margin: 0 0 1em 0;
+			width: 50%;
+		}
+
+			.image.p50 img {
+				width: 50%;
 			}
 
 		.image.p70 {
