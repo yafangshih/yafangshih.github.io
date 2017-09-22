@@ -2134,6 +2134,16 @@
 				width: 15%;
 			}
 
+		.image.p30 {
+			display: block;
+			margin: 0 0 1em 0;
+			width: 30%;
+		}
+
+			.image.p30 img {
+				width: 30%;
+			}
+
 		.image.p50 {
 			display: block;
 			margin: 0 0 1em 0;
